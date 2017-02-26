@@ -32,13 +32,13 @@ public class MyInteger_Test {
 		assertEquals(test1.isEven(),false);
 		assertEquals(test1.isOdd(),true);
 		assertEquals(test1.isPrime(),true);
-		assertEquals(MyInteger.isEvenint(),true);
-		assertEquals(MyInteger.isOddint(),false);
-		assertEquals(MyInteger.isPrimeint(),false);
+		assertEquals(MyInteger.isEven(10),true);
+		assertEquals(MyInteger.isOdd(10),false);
+		assertEquals(MyInteger.isPrime(10),false);
 		assertEquals(MyInteger.isEvenMyInteger(),false);
 		assertEquals(MyInteger.isOddMyInteger(),true);
 		assertEquals(MyInteger.isPrimeMyInteger(),true);
-		assertEquals(test1.equalsint(),false);
+		assertEquals(test1.equals(10),false);
 		assertEquals(test1.equalsMyInteger(),true);
 		
 		
