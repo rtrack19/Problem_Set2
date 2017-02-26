@@ -38,23 +38,23 @@ public class MyInteger {
 	}
 	
 	
-	public static boolean isEvenint(){
-		return(10%2==0);
+	public static boolean isEven(int value){
+		return(value%2==0);
 	}
-	public static boolean isOddint(){
-		return(10%2!=0);
+	public static boolean isOdd(int value){
+		return(value%2!=0);
 	}
-	public static boolean isPrimeint(){
-		for(int i=2;i<10;i++)
+	public static boolean isPrime(int value){
+		for(int i=2;i<value;i++)
 		{
-			if(10%i==0){
+			if(value%i==0){
 				return(false);
 			}
 			
 		}
 		return(true);
 	}
-		public static boolean isEvenMyInteger(){
+	public static boolean isEvenMyInteger(){
 		return(13%2==0);
 	}
 	public static boolean isOddMyInteger(){
@@ -70,8 +70,8 @@ public class MyInteger {
 		}
 		return(true);
 	}
-	public boolean equalsint(){
-		return iValue==10;
+	public boolean equals(int value){
+		return iValue==value;
 	}
 	public boolean equalsMyInteger(){
 		return iValue==13;
